@@ -4,7 +4,7 @@ A complete personal finance tracker with an iOS Liquid Glass inspired interface.
 
 ## Put it on GitHub Pages
 
-1. Create a GitHub repository and upload **the contents of this folder**, keeping `index.html`, `app.js`, `vault.js`, `styles.css`, and `favicon.svg` together at the repository root.
+1. Create a GitHub repository and upload **the contents of this folder**, keeping `index.html`, `app.js`, `vault.js`, `theme-boot.js`, `styles.css`, and `favicon.svg` together at the repository root.
 2. In the repository, go to **Settings → Pages**. Choose **Deploy from a branch**, select your main branch and **/(root)**, then save.
 3. Open the HTTPS Pages address GitHub gives you. On the first visit, create a strong password of at least 12 characters.
 
@@ -25,6 +25,8 @@ Then open http://localhost:8000. Opening index.html directly as a file will not 
 - Password-first entry screen; creates an encrypted vault on first use.
 - Add, edit, delete, search, and filter income and expenses.
 - Monthly category budgets and overspending indicators.
+- Month-to-date chart on the overview: cumulative spending and income by day, with a budget pace line when budgets are set. Hover, tap, or use arrow keys to read each day.
+- 13 colorways in Settings. The chosen colorway name is stored unencrypted in this browser (key `glass-ledger-theme`) so the lock screen can match it; no financial data is included.
 - Monthly income, expenses, net balance, spending breakdown, six-month cash flow, savings rate, and all-time totals.
 - PHP by default, with USD, EUR, GBP, JPY, CAD, and AUD display options. Currency selection relabels amounts; it does not exchange currencies. Amounts are stored in hundredths of a currency unit.
 - Encrypted backup export and restore, plus explicitly confirmed unencrypted CSV export.
