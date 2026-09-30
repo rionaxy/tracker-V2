@@ -29,7 +29,8 @@ Then open http://localhost:8000. Opening index.html directly as a file will not 
 - PHP by default, with USD, EUR, GBP, JPY, CAD, and AUD display options. Currency selection relabels amounts; it does not exchange currencies. Amounts are stored in hundredths of a currency unit.
 - Encrypted backup export and restore, plus explicitly confirmed unencrypted CSV export.
 - Password changes, manual lock, and automatic lock after ten minutes of inactivity.
-- Responsive layout and keyboard-accessible controls.
+- Responsive layout and keyboard-accessible controls, including a custom month picker (arrow keys, Escape).
+- Short, spring-eased motion for page changes, dialogs, the month picker, charts, and notifications. Turned off automatically when the system "reduce motion" setting is on.
 
 ## What password protection means here
 
